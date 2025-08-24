@@ -1,8 +1,8 @@
-# Change Detection System - Project Overview
+# Computer Vision Techniques for Automated Report Generation - Project Overview
 
 ## What is this project?
 
-The **Change Detection System** is a comprehensive tool for analyzing infrastructure development and land use changes from satellite imagery. It uses computer vision and machine learning techniques to automatically detect, quantify, and report changes between two satellite images taken at different times.
+The **Computer Vision Techniques for Automated Report Generation** is a comprehensive tool for analyzing infrastructure development and land use changes from satellite imagery. It uses computer vision and machine learning techniques to automatically detect, quantify, and report changes between two satellite images taken at different times.
 
 ## Key Features
 
