@@ -1,0 +1,49 @@
+{
+  "implementation_name": "Advanced Computer Vision",
+  "version": "1.0",
+  "timestamp": "2025-08-24T20:13:47.536511",
+  "processing_time": 0.05858421325683594,
+  "total_change_area": 809913.0,
+  "total_change_pixels": 809913,
+  "num_change_regions": 1,
+  "average_confidence": 0.1553859173884157,
+  "parameters": {
+    "scales": [
+      1.0,
+      0.5,
+      0.25
+    ],
+    "threshold_method": "adaptive",
+    "morphology_kernel": [
+      5,
+      5
+    ],
+    "min_area": 100
+  },
+  "input_images": [
+    "lv2010.png",
+    "lv2022.png"
+  ],
+  "image_dimensions": [
+    1024,
+    853
+  ],
+  "change_regions": [
+    {
+      "id": 1,
+      "bbox": [
+        "0",
+        "0",
+        "853",
+        "1024"
+      ],
+      "area_pixels": "809913",
+      "centroid": [
+        422.7787663613252,
+        513.5072507787874
+      ],
+      "confidence": 0.1553859173884157,
+      "change_type": null
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-24T19:14:20.789341",
+  "num_methods": 3,
+  "methods": [
+    "Basic Computer Vision",
+    "Advanced Computer Vision",
+    "Deep Learning Inspired"
+  ],
+  "total_change_pixels": [
+    220665,
+    877507,
+    200487
+  ],
+  "processing_times": [
+    0.06400132179260254,
+    0.06257104873657227,
+    0.43097686767578125
+  ],
+  "num_regions": [
+    568,
+    1,
+    167
+  ],
+  "visualization_files": {
+    "individual_visualizations": [
+      "basic_computer_vision_visualization.png",
+      "advanced_computer_vision_visualization.png",
+      "deep_learning_inspired_visualization.png"
+    ],
+    "performance_chart": "performance_comparison.png",
+    "statistics_chart": "change_area_statistics.png",
+    "dashboard": "comprehensive_dashboard.png"
+  },
+  "report_files": {
+    "individual_reports": [
+      "basic_computer_vision_report.pdf",
+      "advanced_computer_vision_report.pdf",
+      "deep_learning_inspired_report.pdf"
+    ],
+    "comparison_report": "comparison_report.pdf",
+    "executive_summary": "executive_summary.pdf"
+  }
+}

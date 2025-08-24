@@ -1,0 +1,83 @@
+{
+  "timestamp": "2025-08-24T20:13:47.918537",
+  "num_methods": 3,
+  "method_names": [
+    "Basic Computer Vision",
+    "Advanced Computer Vision",
+    "Deep Learning Inspired"
+  ],
+  "inter_method_agreement": {
+    "num_methods": 3,
+    "method_names": [
+      "Basic Computer Vision",
+      "Advanced Computer Vision",
+      "Deep Learning Inspired"
+    ],
+    "pairwise_agreements": {
+      "Basic Computer Vision_vs_Advanced Computer Vision": {
+        "iou": 0.2809389436147561,
+        "jaccard_similarity": 0.2809389436147561,
+        "pixel_agreement": 0.3295995750293083
+      },
+      "Basic Computer Vision_vs_Deep Learning Inspired": {
+        "iou": 0.3756496737808249,
+        "jaccard_similarity": 0.3756496737808249,
+        "pixel_agreement": 0.7737649289273154
+      },
+      "Advanced Computer Vision_vs_Deep Learning Inspired": {
+        "iou": 0.24036462929191912,
+        "jaccard_similarity": 0.24036462929191912,
+        "pixel_agreement": 0.2903882436987104
+      }
+    },
+    "overall_agreement": {
+      "mean_iou": 0.29898441556250005,
+      "std_iou": 0.05668474285586858,
+      "min_iou": 0.24036462929191912,
+      "max_iou": 0.3756496737808249,
+      "mean_jaccard": 0.29898441556250005,
+      "std_jaccard": 0.05668474285586858
+    },
+    "consensus_analysis": {
+      "full_agreement_change_pixels": 116922,
+      "full_agreement_no_change_pixels": 55044,
+      "partial_agreement_pixels": 701506,
+      "full_agreement_percentage": 19.687637382766706,
+      "consensus_mask_mean": 0.475234717130661,
+      "consensus_mask_std": 0.2662982940673828
+    },
+    "agreement_level": "Low"
+  },
+  "confidence_intervals": {
+    "confidence_level": 0.95,
+    "sample_size": 3,
+    "change_pixels": {
+      "mean": 415104.3333333333,
+      "std": 342267.07215467474,
+      "ci_lower": -435134.208085929,
+      "ci_upper": 1265342.8747525956,
+      "margin_error": 850238.5414192623
+    },
+    "num_regions": {
+      "mean": 156.0,
+      "std": 136.63454907160195,
+      "ci_lower": -183.41903607256125,
+      "ci_upper": 495.41903607256125,
+      "margin_error": 339.41903607256125
+    },
+    "processing_time": {
+      "mean": 0.1555751164754232,
+      "std": 0.13776778471756482,
+      "ci_lower": -0.18665903300153927,
+      "ci_upper": 0.4978092659523856,
+      "margin_error": 0.34223414947696246
+    },
+    "average_confidence": {
+      "mean": 0.2974700224862075,
+      "std": 0.20093726842694137,
+      "ci_lower": -1.5078797066790701,
+      "ci_upper": 2.1028197516514853,
+      "margin_error": 1.8053497291652776
+    }
+  }
+}

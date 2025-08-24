@@ -1,0 +1,112 @@
+{
+  "timestamp": "2025-08-24T20:13:47.911418",
+  "num_implementations": 3,
+  "implementations": [
+    {
+      "name": "Basic Computer Vision",
+      "version": "1.0",
+      "processing_time": 0.09487104415893555,
+      "total_change_pixels": 233235,
+      "num_change_regions": 259,
+      "average_confidence": 0.0,
+      "parameters": {
+        "threshold_method": "otsu",
+        "blur_kernel": [
+          5,
+          5
+        ],
+        "morphology_kernel": [
+          3,
+          3
+        ],
+        "min_area": 100
+      }
+    },
+    {
+      "name": "Advanced Computer Vision",
+      "version": "1.0",
+      "processing_time": 0.05858421325683594,
+      "total_change_pixels": 809913,
+      "num_change_regions": 1,
+      "average_confidence": 0.1553859173884157,
+      "parameters": {
+        "scales": [
+          1.0,
+          0.5,
+          0.25
+        ],
+        "threshold_method": "adaptive",
+        "morphology_kernel": [
+          5,
+          5
+        ],
+        "min_area": 100
+      }
+    },
+    {
+      "name": "Deep Learning Inspired",
+      "version": "1.0",
+      "processing_time": 0.31327009201049805,
+      "total_change_pixels": 202165,
+      "num_change_regions": 208,
+      "average_confidence": 0.4395541275839993,
+      "parameters": {
+        "normalization": "histogram_equalization",
+        "filtering": "bilateral",
+        "threshold_methods": [
+          "otsu",
+          "percentile_95"
+        ],
+        "morphology_kernels": [
+          [
+            3,
+            3
+          ],
+          [
+            7,
+            7
+          ]
+        ],
+        "min_area": 100,
+        "confidence_factors": [
+          "intensity",
+          "shape_compactness"
+        ]
+      }
+    }
+  ],
+  "metrics_comparison": {
+    "processing_time": {
+      "fastest": 0.05858421325683594,
+      "slowest": 0.31327009201049805,
+      "average": 0.1555751164754232
+    },
+    "change_pixels": {
+      "minimum": 202165,
+      "maximum": 809913,
+      "average": 415104.3333333333,
+      "std_dev": 279459.8941784352
+    },
+    "num_regions": {
+      "minimum": 1,
+      "maximum": 259,
+      "average": 156.0
+    },
+    "confidence": {
+      "minimum": 0.0,
+      "maximum": 0.4395541275839993,
+      "average": 0.19831334832413836
+    }
+  },
+  "processing_times": {
+    "Basic Computer Vision": 0.09487104415893555,
+    "Advanced Computer Vision": 0.05858421325683594,
+    "Deep Learning Inspired": 0.31327009201049805
+  },
+  "summary": {
+    "fastest_implementation": "Advanced Computer Vision",
+    "most_changes_detected": "Advanced Computer Vision",
+    "most_regions_detected": "Basic Computer Vision",
+    "agreement_level": "Low"
+  }
+}

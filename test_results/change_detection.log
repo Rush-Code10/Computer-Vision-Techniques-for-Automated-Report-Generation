@@ -1,0 +1,26 @@
+2025-08-24 19:50:08 - change_detection - INFO - __init__:68 - Logging to file: test_results\change_detection.log
+2025-08-24 19:50:08 - change_detection - INFO - info:81 - ==================================================
+2025-08-24 19:50:08 - change_detection - INFO - info:81 - SYSTEM INFORMATION
+2025-08-24 19:50:08 - change_detection - INFO - info:81 - ==================================================
+2025-08-24 19:50:08 - change_detection - INFO - info:81 - Platform: Windows-11-10.0.26100-SP0
+2025-08-24 19:50:08 - change_detection - INFO - info:81 - Python Version: 3.13.6
+2025-08-24 19:50:08 - change_detection - INFO - info:81 - CPU Count: 16
+2025-08-24 19:50:08 - change_detection - INFO - info:81 - Memory: 31.4 GB
+2025-08-24 19:50:08 - change_detection - INFO - info:81 - Start Time: 2025-08-24 19:50:08
+2025-08-24 19:50:08 - change_detection - INFO - info:81 - ==================================================
+2025-08-24 19:50:08 - change_detection - INFO - info:81 - Running basic implementation...
+2025-08-24 19:50:08 - change_detection - INFO - info:81 - RESULTS SUMMARY
+2025-08-24 19:50:08 - change_detection - INFO - info:81 - ------------------------------
+2025-08-24 19:50:08 - change_detection - INFO - info:81 - Basic Computer Vision:
+2025-08-24 19:50:08 - change_detection - INFO - info:81 -   Processing Time: 0.061s
+2025-08-24 19:50:08 - change_detection - INFO - info:81 -   Change Pixels: 220,665
+2025-08-24 19:50:08 - change_detection - INFO - info:81 -   Change Regions: 353
+2025-08-24 19:50:08 - change_detection - INFO - info:81 -   Average Confidence: 0.000
+2025-08-24 19:50:08 - change_detection - INFO - info:81 - ------------------------------
+2025-08-24 19:50:08 - change_detection - INFO - info:81 - PERFORMANCE SUMMARY
+2025-08-24 19:50:08 - change_detection - INFO - info:81 - ------------------------------
+2025-08-24 19:50:08 - change_detection - INFO - info:81 - Total Time: 0.118s
+2025-08-24 19:50:08 - change_detection - INFO - info:81 - Checkpoints: 0
+2025-08-24 19:50:08 - change_detection - INFO - info:81 - Memory Delta: +6.4MB
+2025-08-24 19:50:08 - change_detection - INFO - info:81 - Peak Memory: 224.7MB
+2025-08-24 19:50:08 - change_detection - INFO - info:81 - ------------------------------

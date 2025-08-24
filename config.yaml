@@ -1,0 +1,97 @@
+# Configuration file for Change Detection System
+# This file contains parameters for all implementations and system settings
+
+# Input Configuration
+input:
+  # Paths to input images (can be overridden via command line)
+  image1_path: ""
+  image2_path: ""
+  # Optional ground truth mask for accuracy evaluation
+  ground_truth_path: ""
+
+# Processing Configuration
+processing:
+  # Which implementations to run: ['basic', 'advanced', 'deep_learning'] or 'all'
+  implementations: ['basic', 'advanced', 'deep_learning']
+  # Run implementations in parallel (future enhancement)
+  parallel_execution: false
+  # Minimum area threshold for change regions (pixels)
+  min_area_threshold: 100
+  # Confidence threshold for filtering results
+  confidence_threshold: 0.5
+
+# Implementation-specific parameters
+implementations:
+  basic:
+    # Basic computer vision parameters
+    blur_kernel_size: 5
+    threshold_value: 30
+    morphology_kernel_size: 3
+    morphology_iterations: 2
+  
+  advanced:
+    # Advanced computer vision parameters
+    gaussian_blur_sigma: 1.0
+    edge_threshold_low: 50
+    edge_threshold_high: 150
+    contour_min_area: 50
+    adaptive_threshold_block_size: 11
+    adaptive_threshold_c: 2
+  
+  deep_learning:
+    # Deep learning inspired parameters
+    patch_size: 32
+    stride: 16
+    similarity_threshold: 0.7
+    clustering_eps: 10
+    clustering_min_samples: 5
+
+# Output Configuration
+output:
+  # Base directory for all outputs
+  base_directory: "results"
+  # Report formats to generate
+  report_formats: ["pdf"]
+  # Include visualizations in reports
+  include_visualizations: true
+  # Save intermediate results
+  save_intermediate: true
+  # Timestamp format for output directories
+  timestamp_format: "%Y%m%d_%H%M%S"
+
+# Evaluation Configuration
+evaluation:
+  # Calculate accuracy metrics when ground truth is available
+  calculate_accuracy: true
+  # Calculate inter-method agreement when multiple implementations run
+  calculate_agreement: true
+  # Generate accuracy visualizations
+  generate_accuracy_plots: true
+  # Minimum region size for evaluation (pixels)
+  min_region_size: 10
+
+# Logging Configuration
+logging:
+  # Logging level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  # Log to file in addition to console
+  log_to_file: true
+  # Log file path (relative to base_directory)
+  log_file: "change_detection.log"
+  # Include timestamps in log messages
+  include_timestamps: true
+  # Show progress bars for long operations
+  show_progress: true
+
+# Report Configuration
+reports:
+  # Include executive summary
+  include_executive_summary: true
+  # Include comparison report when multiple implementations run
+  include_comparison: true
+  # Include detailed accuracy analysis
+  include_accuracy_analysis: true
+  # Report template style
+  template_style: "standard"
+  # Include metadata in reports
+  include_metadata: true
