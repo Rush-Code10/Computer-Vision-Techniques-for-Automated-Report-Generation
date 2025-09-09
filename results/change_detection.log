@@ -73,3 +73,114 @@
 2025-08-24 20:13:51 - change_detection - INFO - info:81 - Memory Delta: +112.6MB
 2025-08-24 20:13:51 - change_detection - INFO - info:81 - Peak Memory: 331.0MB
 2025-08-24 20:13:51 - change_detection - INFO - info:81 - ------------------------------
+2025-09-09 16:38:21 - change_detection - INFO - __init__:68 - Logging to file: results\change_detection.log
+2025-09-09 16:38:21 - change_detection - INFO - info:81 - ==================================================
+2025-09-09 16:38:21 - change_detection - INFO - info:81 - SYSTEM INFORMATION
+2025-09-09 16:38:21 - change_detection - INFO - info:81 - ==================================================
+2025-09-09 16:38:21 - change_detection - INFO - info:81 - Platform: Windows-11-10.0.26100-SP0
+2025-09-09 16:38:21 - change_detection - INFO - info:81 - Python Version: 3.13.6
+2025-09-09 16:38:21 - change_detection - INFO - info:81 - CPU Count: 16
+2025-09-09 16:38:21 - change_detection - INFO - info:81 - Memory: 31.4 GB
+2025-09-09 16:38:21 - change_detection - INFO - info:81 - Start Time: 2025-09-09 16:38:21
+2025-09-09 16:38:21 - change_detection - INFO - info:81 - ==================================================
+2025-09-09 16:38:21 - change_detection - INFO - info:81 - Running 3 implementations...
+2025-09-09 16:38:22 - change_detection - INFO - info:81 - Completed: implementations
+2025-09-09 16:38:22 - change_detection - INFO - info:81 - RESULTS SUMMARY
+2025-09-09 16:38:22 - change_detection - INFO - info:81 - ------------------------------
+2025-09-09 16:38:22 - change_detection - INFO - info:81 - Basic Computer Vision:
+2025-09-09 16:38:22 - change_detection - INFO - info:81 -   Processing Time: 0.093s
+2025-09-09 16:38:22 - change_detection - INFO - info:81 -   Change Pixels: 220,665
+2025-09-09 16:38:22 - change_detection - INFO - info:81 -   Change Regions: 353
+2025-09-09 16:38:22 - change_detection - INFO - info:81 -   Average Confidence: 0.000
+2025-09-09 16:38:22 - change_detection - INFO - info:81 - Advanced Computer Vision:
+2025-09-09 16:38:22 - change_detection - INFO - info:81 -   Processing Time: 0.070s
+2025-09-09 16:38:22 - change_detection - INFO - info:81 -   Change Pixels: 877,507
+2025-09-09 16:38:22 - change_detection - INFO - info:81 -   Change Regions: 1
+2025-09-09 16:38:22 - change_detection - INFO - info:81 -   Average Confidence: 0.164
+2025-09-09 16:38:22 - change_detection - INFO - info:81 - Deep Learning Inspired:
+2025-09-09 16:38:22 - change_detection - INFO - info:81 -   Processing Time: 0.345s
+2025-09-09 16:38:22 - change_detection - INFO - info:81 -   Change Pixels: 200,487
+2025-09-09 16:38:22 - change_detection - INFO - info:81 -   Change Regions: 207
+2025-09-09 16:38:22 - change_detection - INFO - info:81 -   Average Confidence: 0.402
+2025-09-09 16:38:22 - change_detection - INFO - info:81 - ------------------------------
+2025-09-09 16:38:22 - change_detection - INFO - info:81 - PERFORMANCE SUMMARY
+2025-09-09 16:38:22 - change_detection - INFO - info:81 - ------------------------------
+2025-09-09 16:38:22 - change_detection - INFO - info:81 - Total Time: 0.862s
+2025-09-09 16:38:22 - change_detection - INFO - info:81 - Checkpoints: 6
+2025-09-09 16:38:22 - change_detection - INFO - info:81 - Memory Delta: +14.3MB
+2025-09-09 16:38:22 - change_detection - INFO - info:81 - Peak Memory: 232.9MB
+2025-09-09 16:38:22 - change_detection - INFO - info:81 - ------------------------------
+2025-09-09 16:38:25 - change_detection - INFO - __init__:68 - Logging to file: results\change_detection.log
+2025-09-09 16:38:25 - change_detection - INFO - info:81 - ==================================================
+2025-09-09 16:38:25 - change_detection - INFO - info:81 - SYSTEM INFORMATION
+2025-09-09 16:38:25 - change_detection - INFO - info:81 - ==================================================
+2025-09-09 16:38:25 - change_detection - INFO - info:81 - Platform: Windows-11-10.0.26100-SP0
+2025-09-09 16:38:25 - change_detection - INFO - info:81 - Python Version: 3.13.6
+2025-09-09 16:38:25 - change_detection - INFO - info:81 - CPU Count: 16
+2025-09-09 16:38:25 - change_detection - INFO - info:81 - Memory: 31.4 GB
+2025-09-09 16:38:25 - change_detection - INFO - info:81 - Start Time: 2025-09-09 16:38:25
+2025-09-09 16:38:25 - change_detection - INFO - info:81 - ==================================================
+2025-09-09 16:38:25 - change_detection - INFO - info:81 - Running 3 implementations...
+2025-09-09 16:38:26 - change_detection - INFO - info:81 - Completed: implementations
+2025-09-09 16:38:26 - change_detection - INFO - info:81 - RESULTS SUMMARY
+2025-09-09 16:38:26 - change_detection - INFO - info:81 - ------------------------------
+2025-09-09 16:38:26 - change_detection - INFO - info:81 - Basic Computer Vision:
+2025-09-09 16:38:26 - change_detection - INFO - info:81 -   Processing Time: 0.067s
+2025-09-09 16:38:26 - change_detection - INFO - info:81 -   Change Pixels: 220,665
+2025-09-09 16:38:26 - change_detection - INFO - info:81 -   Change Regions: 353
+2025-09-09 16:38:26 - change_detection - INFO - info:81 -   Average Confidence: 0.000
+2025-09-09 16:38:26 - change_detection - INFO - info:81 - Advanced Computer Vision:
+2025-09-09 16:38:26 - change_detection - INFO - info:81 -   Processing Time: 0.063s
+2025-09-09 16:38:26 - change_detection - INFO - info:81 -   Change Pixels: 877,507
+2025-09-09 16:38:26 - change_detection - INFO - info:81 -   Change Regions: 1
+2025-09-09 16:38:26 - change_detection - INFO - info:81 -   Average Confidence: 0.164
+2025-09-09 16:38:26 - change_detection - INFO - info:81 - Deep Learning Inspired:
+2025-09-09 16:38:26 - change_detection - INFO - info:81 -   Processing Time: 0.463s
+2025-09-09 16:38:26 - change_detection - INFO - info:81 -   Change Pixels: 200,487
+2025-09-09 16:38:26 - change_detection - INFO - info:81 -   Change Regions: 207
+2025-09-09 16:38:26 - change_detection - INFO - info:81 -   Average Confidence: 0.402
+2025-09-09 16:38:26 - change_detection - INFO - info:81 - ------------------------------
+2025-09-09 16:38:26 - change_detection - INFO - info:81 - PERFORMANCE SUMMARY
+2025-09-09 16:38:26 - change_detection - INFO - info:81 - ------------------------------
+2025-09-09 16:38:26 - change_detection - INFO - info:81 - Total Time: 0.858s
+2025-09-09 16:38:26 - change_detection - INFO - info:81 - Checkpoints: 6
+2025-09-09 16:38:26 - change_detection - INFO - info:81 - Memory Delta: +15.0MB
+2025-09-09 16:38:26 - change_detection - INFO - info:81 - Peak Memory: 234.2MB
+2025-09-09 16:38:26 - change_detection - INFO - info:81 - ------------------------------
+2025-09-09 16:39:08 - change_detection - INFO - __init__:68 - Logging to file: results\change_detection.log
+2025-09-09 16:39:08 - change_detection - INFO - info:81 - ==================================================
+2025-09-09 16:39:08 - change_detection - INFO - info:81 - SYSTEM INFORMATION
+2025-09-09 16:39:08 - change_detection - INFO - info:81 - ==================================================
+2025-09-09 16:39:08 - change_detection - INFO - info:81 - Platform: Windows-11-10.0.26100-SP0
+2025-09-09 16:39:08 - change_detection - INFO - info:81 - Python Version: 3.13.6
+2025-09-09 16:39:08 - change_detection - INFO - info:81 - CPU Count: 16
+2025-09-09 16:39:08 - change_detection - INFO - info:81 - Memory: 31.4 GB
+2025-09-09 16:39:08 - change_detection - INFO - info:81 - Start Time: 2025-09-09 16:39:08
+2025-09-09 16:39:08 - change_detection - INFO - info:81 - ==================================================
+2025-09-09 16:39:08 - change_detection - INFO - info:81 - Running 3 implementations...
+2025-09-09 16:39:08 - change_detection - INFO - info:81 - Completed: implementations
+2025-09-09 16:39:08 - change_detection - INFO - info:81 - RESULTS SUMMARY
+2025-09-09 16:39:08 - change_detection - INFO - info:81 - ------------------------------
+2025-09-09 16:39:08 - change_detection - INFO - info:81 - Basic Computer Vision:
+2025-09-09 16:39:08 - change_detection - INFO - info:81 -   Processing Time: 0.059s
+2025-09-09 16:39:08 - change_detection - INFO - info:81 -   Change Pixels: 220,665
+2025-09-09 16:39:08 - change_detection - INFO - info:81 -   Change Regions: 353
+2025-09-09 16:39:08 - change_detection - INFO - info:81 -   Average Confidence: 0.000
+2025-09-09 16:39:08 - change_detection - INFO - info:81 - Advanced Computer Vision:
+2025-09-09 16:39:08 - change_detection - INFO - info:81 -   Processing Time: 0.066s
+2025-09-09 16:39:08 - change_detection - INFO - info:81 -   Change Pixels: 877,507
+2025-09-09 16:39:08 - change_detection - INFO - info:81 -   Change Regions: 1
+2025-09-09 16:39:08 - change_detection - INFO - info:81 -   Average Confidence: 0.164
+2025-09-09 16:39:08 - change_detection - INFO - info:81 - Deep Learning Inspired:
+2025-09-09 16:39:08 - change_detection - INFO - info:81 -   Processing Time: 0.401s
+2025-09-09 16:39:08 - change_detection - INFO - info:81 -   Change Pixels: 200,487
+2025-09-09 16:39:08 - change_detection - INFO - info:81 -   Change Regions: 207
+2025-09-09 16:39:08 - change_detection - INFO - info:81 -   Average Confidence: 0.402
+2025-09-09 16:39:08 - change_detection - INFO - info:81 - ------------------------------
+2025-09-09 16:39:08 - change_detection - INFO - info:81 - PERFORMANCE SUMMARY
+2025-09-09 16:39:08 - change_detection - INFO - info:81 - ------------------------------
+2025-09-09 16:39:08 - change_detection - INFO - info:81 - Total Time: 0.791s
+2025-09-09 16:39:08 - change_detection - INFO - info:81 - Checkpoints: 6
+2025-09-09 16:39:08 - change_detection - INFO - info:81 - Memory Delta: +15.3MB
+2025-09-09 16:39:08 - change_detection - INFO - info:81 - Peak Memory: 233.8MB
+2025-09-09 16:39:08 - change_detection - INFO - info:81 - ------------------------------
